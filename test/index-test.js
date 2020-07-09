@@ -53,14 +53,3 @@ describe('index.js', () => {
     });
   });
 });
-
-
-
-function changeCompletely(array, callback) {
-  array.forEach(callback);
-}
-
-function callback(){(ele => {
-	console.log(`Mmmm, ${ele}!!!`);
-	});
-}
