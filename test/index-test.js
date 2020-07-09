@@ -32,6 +32,11 @@ describe('index.js', () => {
     });
   });
 
+
+
+
+
+
   describe('changeCompletely()', () => {
     it('is defined', () => {
       expect(changeCompletely).to.be.a('function');
@@ -48,3 +53,14 @@ describe('index.js', () => {
     });
   });
 });
+
+
+
+function changeCompletely(array, callback) {
+  array.forEach(callback);
+}
+
+function callback(){(ele => {
+	console.log(`Mmmm, ${ele}!!!`);
+	});
+}
