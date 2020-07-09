@@ -24,11 +24,11 @@ function doToElementsInArray(array, callback) {
   array.forEach(callback);
 }
 
-function callback(){(fruit => {
+/*function callback(){(fruit => {
 	console.log(`Mmmm, ${fruit}!!!`);
 	});
 }
-
+*/
 
 // Add your changeCompletely() function here:
 
