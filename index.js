@@ -31,11 +31,18 @@ function callback(){(fruit => {
 
 
 // Add your changeCompletely() function here:
-function changeCompletely(array, callback) {
+/*function changeCompletely(array, callback) {
   array.forEach(callback);
 }
 
 function callback(){(ele => {
 	console.log(`Mmmm, ${ele}!!!`);
 	});
+}*/
+
+
+
+function changeCompletely(element, index, array) {
+  array[index] = (Math.random() * 100).toString() + '!!!'
+  return array
 }
